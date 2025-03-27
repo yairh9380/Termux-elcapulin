@@ -1,5 +1,10 @@
-Claro, aquí tienes una guía práctica y concisa para copiar y pegar comandos en Termux, enfocada en la instalación de addons y utilidades esenciales.
 
+
+Termux setup minimalist
+
+create a syllabus for each apartado demtro de los apartados de la siguiente guia
+
+y agrega indice symtaxys con hypervincylo 
 **Guía Práctica para Termux: Instalación de Addons y Utilidades Esenciales (Copy & Paste)**
 
 Esta guía te proporciona comandos listos para copiar y pegar directamente en tu terminal Termux.
@@ -156,4 +161,16 @@ sudo apt update && sudo apt full-upgrade -y
 
 sudo apt install -y kali-linux-default
 
+-------
 
+
+Extras code server 
+
+
+you use the install script, you can preview what occurs during the install process:
+
+curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
+To install, run:
+
+curl -fsSL https://code-server.dev/install.sh | sh
+When done, the install script prints out instructions for running and starting code-server.
